@@ -1,0 +1,31 @@
+.formError {
+    border: 1px solid red;
+    color: red;
+    padding: 5px;
+}
+
+.container{
+    position: relative;
+}
+
+.error{
+    border: 2px solid red;
+}
+
+.blockError{
+    position: absolute;
+    top: -10px;
+    left: 190px;
+    width: 130px;
+    height: 50px;
+    background-color: rgb(238, 197, 197);
+    text-align: center;
+}
+
+.form{
+    text-align: center;
+}
+
+.findPerson{
+    text-align: center;
+}

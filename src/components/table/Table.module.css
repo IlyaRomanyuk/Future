@@ -1,0 +1,50 @@
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+.pages{
+    /*text-align: center;
+    padding: 35px;
+    cursor: pointer;*/
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pages p {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.currentPage{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50px;
+
+    background-color: rgb(74, 74, 160);
+}
+
+.btn{
+    background: none;
+    border: none;
+    color: #fff;
+    background-color: rgb(28, 28, 90);
+    border-radius: 10px;
+    border: #000;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: relative;
+
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}

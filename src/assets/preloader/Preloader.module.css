@@ -1,0 +1,11 @@
+.divPreloader{
+    margin: 0 auto;
+
+    width: 60px;
+    height: 60px;
+}
+
+.preloader{
+    width: 100%;
+    height: 100%;
+}
